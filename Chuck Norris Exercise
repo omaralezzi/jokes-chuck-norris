@@ -1,0 +1,20 @@
+Create a react app. The app should get information from the Chuck Norris jokes Api.
+
+Firstly create a dropdown list populated from the data received from https://api.chucknorris.io/jokes/categories
+
+When selected the category result of the dropdown list should be placed into the following URL
+
+https://api.chucknorris.io/jokes/random?category={category}
+
+fetch this data and display the results on the browser.
+
+Make it as colourful and fantastic as you like. 
+
+Look at the website https://api.chucknorris.io/ 
+for further information.
+
+Only requirements is that you use useReducer, useEffect and useContext. 
+
+If you can incorporate a custom hook into your app please do so. 
+
+The data receieved will be one joke at a time. Create a button to re-fetch another joke. Also changing the category will cause a re-fetch.
